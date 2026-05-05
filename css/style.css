@@ -34,7 +34,7 @@ body {
     background-attachment: fixed;
     /* Resizes the background image to cover the entire container */
     background-size: cover;
-    font-family: Futura, Verdana, sans-serif;
+    font-family: "Bricolage Grotesque", Futura, Verdana, sans-serif;
     line-height: 1.5;
     font-size: 18px;
     display: flex;
@@ -90,6 +90,14 @@ img {
 .name strong {
     background-color: rgba(0, 0, 0, 0.50);
     color: cadetblue;
+}
+
+.bricolage-grotesque {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .section-header {
